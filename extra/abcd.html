@@ -1,0 +1,149 @@
+<html>
+<head>
+<style>
+
+#centeredmenu {
+   clear:both;
+   float:left;
+   margin:0;
+   padding:0;
+   border-bottom:1px solid #000;
+   height:100%;
+   font-family:Verdana, Geneva, sans-serif;
+   font-size:90%; 
+   z-index:1000; 
+   position:relative;
+}
+
+#centeredmenu ul {
+   margin:0;
+   padding:0;
+   list-style:none;
+   float:right;
+   position:relative;
+   right:50%;
+}
+#centeredmenu ul li {
+   margin:0 0 0 1px;
+   padding:0;
+   position:relative;
+   left:50%;
+   top:1px;
+}
+#centeredmenu ul li a {
+   display:block;
+   margin:0;
+   padding:.6em .5em .4em;
+   font-size:1em;
+   line-height:1em;
+   background:#ddd;
+   text-decoration:none;
+   color:#444;
+   font-weight:bold;
+   border-bottom:1px solid #000;
+}
+#centeredmenu ul li.active a {
+   color:#fff;
+   background:#000;
+}
+#centeredmenu ul li a:hover {
+   background:#36f;
+   color:#fff;
+   border-bottom:1px solid #03f;
+}
+#centeredmenu ul li:hover a,
+#centeredmenu ul li.hover a {
+   background:#36f;
+   color:#fff;
+   border-bottom:1px solid #03f;
+}
+
+
+#centeredmenu ul ul {
+   display:none; 
+   position:absolute;
+   top:2em;
+   left:0;
+   right:auto;
+   width:10em;
+}
+#centeredmenu ul ul li {
+   left:92.5%; 
+   top:-30px;; 
+   width:100%;
+}
+#centeredmenu ul ul li a,
+#centeredmenu ul li.active li a,
+#centeredmenu ul li:hover ul li a,
+#centeredmenu ul li.hover ul li a {
+   font-size:.8em;
+   font-weight:normal; 
+   background:#eee;
+   color:#444;
+   line-height:1.4em; 
+   border-bottom:1px solid #ddd;
+}
+#centeredmenu ul ul li a:hover,
+#centeredmenu ul li.active ul li a:hover,
+#centeredmenu ul li:hover ul li a:hover,
+#centeredmenu ul li.hover ul li a:hover {
+   background:#36f; 
+   color:#fff;
+}
+
+/* Flip the last submenu so it stays within the page */
+#centeredmenu ul ul.last {
+   left:0px; /* reset left:0; value */
+   right:0; /* Set right value instead */
+}
+
+/* Make the sub menus appear on hover */
+#centeredmenu ul li:hover ul,
+#centeredmenu ul li.hover ul { /* This line is required for IE 6 and below */
+   display:block; /* Show the sub menus */
+}
+</style>
+</head>
+<body>
+<div id="centeredmenu">
+   <ul>
+      <li><a href="#">Tab one</a>
+         <ul>
+            <li><a href="#">Link one</a></li>
+            <li><a href="#">Link two</a></li>
+            <li><a href="#">Link three</a></li>
+            <li><a href="#">Link four</a></li>
+            <li><a href="#">Link five</a></li>
+         </ul>
+      </li>
+      <li class="active"><a href="#" class="active">Tab two</a>
+         <ul>
+            <li><a href="#">Link one</a></li>
+            <li><a href="#">Link two</a></li>
+            <li><a href="#">Link three</a></li>
+            <li><a href="#">Link four</a></li>
+            <li><a href="#">Link five is a long link that wraps</a></li>
+         </ul>
+      </li>
+      <li><a href="#">Long tab three</a>
+         <ul>
+            <li><a href="#">Link one</a></li>
+            <li><a href="#">Link two</a></li>
+            <li><a href="#">Link three</a></li>
+            <li><a href="#">Link four</a></li>
+            <li><a href="#">Link five</a></li>
+         </ul>
+      </li>
+      <li><a href="#">Tab four</a>
+         <ul class="last">
+            <li><a href="#">Link one</a></li>
+            <li><a href="#">Link two</a></li>
+            <li><a href="#">Link three</a></li>
+            <li><a href="#">Link four</a></li>
+            <li><a href="#">Link five</a></li>
+         </ul>
+      </li>
+   </ul>
+</div>
+</body>
+</html>

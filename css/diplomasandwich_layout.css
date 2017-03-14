@@ -1,0 +1,57 @@
+
+
+
+.dmsTemp {
+border: 1px solid #cccccc;
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: table !important;
+    text-align: left;
+}
+.xmlfile {
+background:#d7ebfb;
+}
+.dmsTemp tr xmlfile {
+	border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    padding: 2px 5px 0;
+    vertical-align: top;
+	background:#f5f5f5;
+}
+.dmsTemp tr td {
+     border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    padding: 2px 5px 0;
+    vertical-align: top;
+}
+.dmsTemp tr th {
+    background: none repeat scroll 0 0 #4f4f4f;
+    border-right: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 4px 0;
+    text-align: center;
+}
+.dmsTemp .compName a {
+    text-decoration: none;
+}
+.dmsTemp tr td a {
+    color: #F3714B;
+}
+
+.dmsTemp tr td a:hover {
+text-decoration:none;
+}
+.dmsDetTemp h3 {
+	display: block;
+	font-family:sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 15px;
+	padding-bottom: 3px;
+	padding-top: 5px;
+}
+.search_img 
+{
+      background: none repeat scroll 0 0 #ceeafa;
+      
+}

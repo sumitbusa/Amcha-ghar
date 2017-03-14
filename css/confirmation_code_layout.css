@@ -1,0 +1,120 @@
+#index_header
+{
+	height:100px;
+	width:100%;
+	left:0px;
+	background-color:transparent;
+	
+}
+#confirmation_code_content
+{
+	margin-top:10px;
+	height:600px;
+	width:100%;
+}
+#confirmation_code
+{
+	background-color:#6cf;
+	margin-left:23%;
+	margin-top:8%;
+	height:60%;
+	width:54%;
+	border: 1px solid #03f; 
+    border-radius:4px;
+	-webkit-box-shadow: 0px 0px 1px 1px #09f;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	-moz-box-shadow:    0px 0px 1px 1px #09f;  /* Firefox 3.5 - 3.6 */
+	box-shadow:         0px 0px 1px 1px #09f;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+	opacity:0.7;
+}
+#hrstyle
+{	
+	 height:3px;
+	 width:96%;
+	 border:0;
+	 margin-top:-5px;
+	 margin-bottom:-5px;
+	 box-shadow:inset 0 12px 12px -12px #63f;
+}
+#confirmation_code_body
+{
+	margin-top:3%;
+	height:65.9%;
+	width:100%;
+}
+#confirmation_code_text_box_body
+{
+	float:left;
+	height:30%;
+	width:90%;
+	margin-left:5%;
+	margin-top:4%;
+}
+#confirmation_code_text_box
+{
+	float:left;
+	height:100%;
+	width:35%;
+}
+#input_confirmation_code
+{
+	margin-left:2px;
+	margin-top:2px;
+	height:60px;
+	width:190px;
+	display: block;
+	margin-bottom: 10px;
+	font-size:40px;
+	background-color:white;
+}
+#bottom_confirmation_code
+{
+	height:9.5%; 
+	width:100%;
+	background-color:#66f;
+	border-top: 2px solid #03f;
+	border-bottom-right-radius:4px;
+	border-bottom-left-radius:4px;
+	opacity:0.7;
+}
+.mybutton 
+{
+	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	
+	background:-moz-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-webkit-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-o-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-ms-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	
+	background-color:#768d87;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	padding: 4px 8px;
+	font-size:14px;
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.mybutton:hover
+{
+	
+	background:-moz-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-webkit-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-o-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-ms-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.mybutton:active 
+{
+	position:relative;
+	top:1px;
+}

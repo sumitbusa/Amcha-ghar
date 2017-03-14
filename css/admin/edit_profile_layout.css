@@ -1,0 +1,131 @@
+.edit_profile_lable
+{
+	color:black;
+	font-size:15px;
+	margin-top:10px;
+}
+.view_profile_lable
+{
+	color:black;
+	font-size:20px;
+	padding:0px 10px;
+}
+#fname,#lname,#emailid,#password,#cpassword,#college_id_no,#sap_no,#contact_no,#address
+{
+	display: block;
+	font-size: 17px;
+	border: solid 1px #dcdcdc;
+    color:black;
+	font-weight:lighter;
+    padding: 3px 10px 3px 10px;
+	background-color:white;
+	width: 300px;
+}
+#gender,#course,#semester,#dob,#department
+{
+	display: block;
+	font-size:17px;
+	border: solid 1px #dcdcdc;
+    color:black;
+	font-weight:lighter;
+    padding: 3px 10px 3px 10px;
+	background-color:white;
+}
+.fileUpload 
+{
+	position: relative;
+	overflow:hidden;
+	width:auto;
+	font-size:18px;
+	padding:3px 10px;
+	background-color:#4E7792;
+	width:70px;
+	margin:-1px 0px 0px 10px ;
+	text-align:center;
+}
+.fileUpload:hover
+{
+	background-color:#1D4F70;
+	color:white;
+}
+.fileUpload:active
+{
+	background-color:#000;
+}
+input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	background-color:red;
+	opacity: 0;
+}
+#uploadFile
+{
+	display: block;
+	font-size: 17px;
+	border: solid 1px #dcdcdc;
+    color:black;
+	font-weight:lighter;
+    padding: 3px 10px 3px 10px;
+	background-color:white;
+	width:170px;
+}
+input[type="text"]:focus 
+{
+	border: solid 1px #969696;
+}
+#edit_profile_btn
+{
+	background-color:#2E9AFE;
+	border-radius:0px;
+	font-size: 20px;
+	padding: 3px 25px 3px 25px;
+	box-shadow: 1px 1px 2px #4d4d4d;
+	border:1px groove #2E9AFE;   
+	margin-top:100px;
+	cursor:pointer
+}
+#edit_profile_btn:hover
+{
+	
+	border-radius:2px;
+}
+#edit_profile_btn:active
+{
+	background-color:#0080FF;
+	border-radius:2px;
+	top:1px;
+	position:relative;
+}
+#signup_content a:link    /* unvisited link */ 	
+{
+	color:#06f;
+	text-decoration: none;
+	border:0;
+	outline:none;
+}
+#signup_content a:visited /* visited link */
+{
+	border:0;
+	outline:none;
+	color:blue;
+	text-decoration: none;
+}
+#signup_content a:hover /* mouse over link */
+{
+	color:blue;
+	text-decoration:;
+	border:0;
+	outline:none;
+}
+#signup_content a:active /* selected link */
+{
+	color:blue;
+	text-decoration: none;
+	border:0;
+	outline:none;
+}

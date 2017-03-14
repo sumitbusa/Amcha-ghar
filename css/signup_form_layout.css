@@ -1,0 +1,86 @@
+/*   student_signup_form.php   */
+
+#content_part
+{
+	z-index:-1;
+	width:101.35%;
+	margin-left:-10px;
+}
+#signup_content
+{	
+	z-index:-1;
+	padding: 20px 5% 50px 5%;
+	margin-left:10%;
+	width:70%;
+	background-color:white;
+	color:#4d4d4d;
+	font-size:15px;
+	opacity:0.999;
+	-webkit-box-shadow: -1px 2px 5px 3px #E6E6E6;
+	-moz-box-shadow: -1px 2px 5px 3px #E6E6E6;
+	box-shadow: 0px 1px 10px #000000;
+}
+#fname,#lname,#semail_id,#spassword,#sc_password,#college_id_no,#birthday,#birthmonth,#birthyear,#gender,#contact_no,#security_code
+{
+	display: block;
+	font-size: 17px;
+	border: solid 1px #dcdcdc;
+    color:black;
+	font-weight:lighter;
+    padding: 7px 10px 7px 10px;
+	background-color:white;
+}
+input[type="text"]:focus 
+{
+	border: solid 1px #969696;
+}
+#signup_btn
+{
+	background-color:#2E9AFE;
+	border-radius:2px;
+	font-size: 20px;
+	padding: 5px 27px 5px 27px;
+	box-shadow: 1px 1px 2px #4d4d4d;
+	border:1px groove #2E9AFE;
+	cursor:pointer;	
+}
+#signup_btn:hover
+{
+	
+	border-radius:2px;
+}
+#signup_btn:active
+{
+	background-color:#0080FF;
+	border-radius:2px;
+	top:1px;
+	position:relative;
+}
+#signup_content a:link    /* unvisited link */ 	
+{
+	color:#06f;
+	text-decoration: none;
+	border:0;
+	outline:none;
+}
+#signup_content a:visited /* visited link */
+{
+	border:0;
+	outline:none;
+	color:blue;
+	text-decoration: none;
+}
+#signup_content a:hover /* mouse over link */
+{
+	color:blue;
+	text-decoration:;
+	border:0;
+	outline:none;
+}
+#signup_content a:active /* selected link */
+{
+	color:blue;
+	text-decoration: none;
+	border:0;
+	outline:none;
+}

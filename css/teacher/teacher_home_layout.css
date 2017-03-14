@@ -1,0 +1,263 @@
+/*  admin_home.php */
+#index_header
+{
+	margin-top:-10px;
+	margin-left:-10px;
+	width:101.25%;
+	height:53px;
+	left:0px;
+	background-color:transparent;
+	
+}
+#home_body
+{
+	margin-left:-10px;
+	height:auto;
+	float:left;
+	width:101.28%;
+}
+#slidebartoggleCHECK
+{
+	display:none;
+}
+.toggleBTN
+{
+	position:fixed;
+	top:54px;
+	left:175px;
+	-webkit-transition: 0.5s;
+	transition:0.5s;
+	z-index:5;
+	cursor:pointer;
+	font-weight:500;
+	color:#fff;
+}
+#centeredmenu 
+{
+	height:100%;
+	width:200px;
+	position:fixed;
+	top:50px;
+	left:0px;
+	-webkit-transition: 0.5s;
+	transition:0.5s;
+	background-color:#333;
+	margin:0;
+	padding-top:30px;
+	height:100%;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:90%; 
+	z-index:3; 
+}
+#profile_space
+{
+	background-color:#cccccc;
+	float:left;
+	height:200px;
+	width:100%;
+	border-bottom:2px solid #000;
+} 
+#Profile_div
+{
+	margin-top:15px;
+	height:125px;
+	width:125px;
+	border-radius:50%;
+	border:3px solid grey;
+}
+#Profile_div img
+{
+	-webkit-filter:contrast(80%);
+	-moz-filter: contrast(80%);
+	-o-filter: contrast(80%);
+	-ms-filter:contrast(80%);
+	filter: contrast(80%);
+	border-radius:50%;
+}
+#Profile_div img:hover
+{
+	-webkit-filter:contrast(100%);
+	-moz-filter: contrast(100%);
+	-o-filter: contrast(100%);
+	-ms-filter:contrast(100%);
+	filter: contrast(100%);
+}
+#user_id_no
+{
+	height:auto;
+	padding:4px 0px 4px 0px;
+	margin-top:10px;
+	width:110px;
+	color:white;
+	background-color:rgba(0,0,0,0.2);
+}
+#centeredmenu ul 
+{
+	margin:0;
+	padding:0;
+	top:-1px;
+	list-style:none;
+	float:right;
+	position:relative;
+	right:50%;
+	height:0px;
+}
+#centeredmenu ul li 
+{
+	margin:0 0 0 0px;
+	padding:0;
+	position:relative;
+	left:50%;
+	top:1px;
+}
+#centeredmenu ul li a 
+{
+	display:block;
+	margin:0;
+	padding:8px 0px 8px 10px;
+	font-size:1em;
+	line-height:1em;
+	width:190px;
+	background:rgba(0,0,0,0.3);
+	text-decoration:none;
+	color:#A0A0A0;
+	font-weight:bold;
+	border-bottom:1px solid #000;
+}
+#centeredmenu ul li:hover a, #centeredmenu ul li.hover a 
+{
+    background:rgba(0,0,0,0.6);
+	color:#fff;
+	border-bottom:1px solid #99f;
+}
+#centeredmenu ul ul 
+{
+	display:none; 
+	position:absolute;
+	top:2em;
+	left:0;
+	right:auto;
+	width:10em;   
+}
+#centeredmenu ul ul li 
+{
+	left:200px; 
+	top:-30px; 
+	width:200px;
+	background-color:#333;
+}
+#centeredmenu ul ul li a, #centeredmenu ul li.active li a, #centeredmenu ul li:hover ul li a, #centeredmenu ul li.hover ul li a 
+{
+	font-size:.8em;
+	font-weight:normal; 
+	background:rgba(0,0,0,0.4);
+	color:#A0A0A0;
+	line-height:1.4em; 
+	border-bottom:1px solid #000;
+}
+#centeredmenu ul ul li a:hover, #centeredmenu ul li.active ul li a:hover, #centeredmenu ul li:hover ul li a:hover, #centeredmenu ul li.hover ul li a:hover 
+{
+    background:rgba(0,0,0,0.8);
+	color:#fff;
+	border-bottom:2px solid #0c9;	
+}
+#centeredmenu ul li:hover ul, #centeredmenu ul li.hover ul 
+{ 
+	display:block;
+}
+#right_contents
+{
+	width:1100px;
+	height:auto;
+	margin-left:200px;
+	transition:0.5s;	
+}
+#right_middle_content
+{
+	margin-top:45px;
+	width:95%;
+	position:relative;
+	height:auto;
+	background-color:#E8E8E8;
+	border-top:1px solid #000;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+	border-bottom:1px solid #000;
+}
+#middle_content_header
+{
+	padding:10px;
+	padding-top:15px;
+	font-size:200%;
+	padding-left:3%;
+	text-align:left;
+
+	width:96%;
+}
+#right_middle_content hr
+{
+	width:98%;
+	margin-bottom:30px;
+	margin-left:1%;
+	
+}
+#content
+{
+	width: 94%;
+	margin-bottom:30px;
+}
+#footer_content
+{
+	margin-top:10px;
+	width:95%;
+	position:relative;
+	height:auto;
+	background-color:#E8E8E8;
+}
+#footer_part
+{
+	height:auto;
+}
+#footer_subcontent
+{
+	height:auto;
+	float:left;
+	padding:3px 10% 3px 0px;
+	text-align:left;	
+}
+#footer_bottom_part
+{
+	text-align:left;
+	width:100%;
+	height:auto;
+	float:left;
+	padding:10px 0px 30px 0px;
+}
+.fanchr:link    /* unvisited link */ 	
+{
+	color:#4d4d4d;
+	text-decoration: none;
+	border:0;
+	outline:none;
+}
+.fanchr:visited /* visited link */
+{
+	border:0;
+	outline:none;
+	color:#4d4d4d;
+	text-decoration: none;
+}
+.fanchr:hover /* mouse over link */
+{
+	color:#fff;
+	text-decoration:;
+	border:0;
+	outline:none;
+}
+.fanchr:active /* selected link */
+{
+	color:#333;
+	text-decoration: none;
+	border:0;
+	outline:none;
+}

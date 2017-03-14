@@ -1,0 +1,33 @@
+/*navigation bar */
+
+#left_transition
+{
+	float:left;
+	height:50px; 
+	position:fixed; 
+	width:50px;
+	background-color:#A280B2;  
+	z-index:50;   
+	transition-property: width;
+    transition-duration:0.5s;
+    transition-timing-function: linear;
+    transition-delay:0s;
+	border:1px solid #100023;
+	opacity:0.89;
+	cursor:pointer;
+	box-shadow: 1px 1px 1px 0px #000;
+}
+#left_transition:hover
+{
+	width:auto;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+	font-size:20px;
+	color:white;
+}
+#left_transition img
+{
+	opacity:1;
+	height:50px;
+	width:50px;
+}
